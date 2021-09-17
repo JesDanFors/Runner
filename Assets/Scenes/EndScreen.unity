@@ -299,7 +299,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 5fd42f54acf086348aa32532fee98b22, type: 2}
+    - {fileID: 11400000, guid: 246bb87f64d1c984490a9a9e7d7a6e03, type: 2}
 --- !u!114 &492143306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 1893020276}
   - component: {fileID: 1893020275}
   m_Layer: 5
-  m_Name: StartText
+  m_Name: EndText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -668,7 +668,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 800, y: 100}
+  m_SizeDelta: {x: 795.5198, y: 241.6441}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1893020275
 MonoBehaviour:
@@ -703,7 +703,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start Game
+  m_Text: 'Fin!
+
+
+    Thanks for playing!'
 --- !u!222 &1893020276
 CanvasRenderer:
   m_ObjectHideFlags: 0
